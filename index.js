@@ -5,6 +5,7 @@
 */
 
 // import the JSON data about the crowd funded games from the games.js file
+// import games from './games.js';
 import GAMES_DATA from './games.js';
 
 // create a list of objects to store the data about the games using JSON.parse
@@ -15,6 +16,7 @@ function deleteChildElements(parent) {
     while (parent.firstChild) {
         parent.removeChild(parent.firstChild);
     }
+    console.log(gamesContainer.firstChild);
 }
 
 /*****************************************************************************
@@ -29,6 +31,9 @@ const gamesContainer = document.getElementById("games-container");
 function addGamesToPage(games) {
 
     // loop over each item in the data
+    for(let i = 0; i < GAMES_DATA.length; i++ ){
+        gamesContainer.in
+    }
 
 
         // create a new div element, which will become the game card
