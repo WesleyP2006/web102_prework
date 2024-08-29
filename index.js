@@ -151,11 +151,19 @@ const descriptionContainer = document.getElementById("description-container");
 
 // use filter or reduce to count the number of unfunded games
 
+const unfundedGames = GAMES_JSON.reduce((acc , game)=>{
+    return game.pledged < game.goal ? ++acc : acc;
+}, 0);
+
+const fundedGames = GAMES_JSON.reduce((acc, game)=>{
+    return game.pledged >= game.goal ? ++acc : acc;
+}, 0 );
 
 // create a string that explains the number of unfunded games using the ternary operator
-
+const description = `A total of ${unfundedGames} remain unfunded, while amazingly ${fundedGames} have been funded. Continue to support our developers!!! Funding developers in game development is vital for fostering creativity and innovation. It enables them to bring diverse and engaging gaming experiences to life, pushing the boundaries of technology and design. By supporting developers, we help ensure a vibrant, evolving industry that continues to inspire and entertain players worldwide.`
 
 // create a new DOM element containing the template string and append it to the description container
+descriptionContainer.innerHTML = description;
 
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
