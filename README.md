@@ -24,10 +24,10 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='file:///private/var/folders/kk/4csbgtjn5d5fhlmc_rffb17w0000gp/T/efd50ec3474d430b84d0c9108147e306/Kapture%202024-08-29%20at%2019.01.46.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/lvECRdU' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with KAP  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -39,7 +39,7 @@ Had a bit of trouble remebering the syntax for javascript but this proved to be 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2024  Wesley Pilamunga Gualpa
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
