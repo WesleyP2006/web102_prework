@@ -135,11 +135,13 @@ function showAllGames() {
 const unfundedBtn = document.getElementById("unfunded-btn");
 const fundedBtn = document.getElementById("funded-btn");
 const allBtn = document.getElementById("all-btn");
+const partyBtn = document.getElementById("party-btn")
 
 // add event listeners with the correct functions to each button
 unfundedBtn.addEventListener("click" , filterUnfundedOnly)
 fundedBtn.addEventListener("click" , filterFundedOnly)
 allBtn.addEventListener("click" , showAllGames)
+partyBtn.addEventListener("click" , ()=>{window.location.href = 'https://www.youtube.com/watch?v=1d9Gebi9Kus'})
 
 /*************************************************************************************
  * Challenge 6: Add more information at the top of the page about the company.
