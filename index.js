@@ -177,8 +177,19 @@ const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
     return item2.pledged - item1.pledged;
 });
 
+let [...games] = sortedGames.reverse();
+
+let firstGame = document.createElement('p')
+let secondGame = document.createElement('p')
+firstGame.innerHTML = games[games.length-1].name
+secondGame.innerHTML = games[games.length-2].name
+
+
+
 // use destructuring and the spread operator to grab the first and second games
 
 // create a new element to hold the name of the top pledge game, then append it to the correct element
 
+firstGameContainer.appendChild(firstGame)
+secondGameContainer.appendChild(secondGame)
 // do the same for the runner up item

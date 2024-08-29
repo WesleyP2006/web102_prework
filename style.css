@@ -11,7 +11,7 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: lightgoldenrodyellow;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
@@ -27,7 +27,7 @@ body {
 
 .stats-container:hover{
     cursor: pointer;
-    box-shadow:0px 0px 30px lightblue;
+    box-shadow:0px 0px 30px lightgoldenrodyellow;
 }
 
 .stats-card {
