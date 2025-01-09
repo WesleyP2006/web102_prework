@@ -14,7 +14,7 @@ const games = ` [
     "pledged": 29446,
     "goal": 20000,
     "backers": 321,
-    "img": "./assets/cube_monster.png"
+    "img": "./assets/cube_monster.png" 
   },
   {
     "name": "Zoo Tycoon: The Board Game",
